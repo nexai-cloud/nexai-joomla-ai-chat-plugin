@@ -2,11 +2,14 @@
 
 Nexai AI Chat Integration for Joomla! brings the power of advanced AI-driven support directly to your website, enhancing user experience and streamlining customer service. Powered by cutting-edge technologies like GPT-3.5 or GPT-4, our AI chat agent provides instant assistance to your visitors, making interactions smoother and more efficient.
 
-### Intallation:
-
-Install the Joomla plugin from https://nexai.site/en/docs/joomla-ai-chat-bubble
+### Intallation
 
 You will need a free API key from https://nexai.site/dashboard
+
+View the Joomla plugin install instructions https://nexai.site/en/docs/joomla-ai-chat-bubble
+
+Or download a release from https://github.com/nexai-cloud/nexai-joomla-ai-chat-plugin/releases
+
 
 ### Screenshot
 
