@@ -8,6 +8,10 @@ Install the Joomla plugin from https://nexai.site/en/docs/joomla-ai-chat-bubble
 
 You will need a free API key from https://nexai.site/dashboard
 
+### Screenshot
+
+![Nexai AI Support Chat Bubble](https://github.com/nexai-cloud/support-chat-bubble/blob/main/public/screenshots/nexai-chat-bubble-open.png)
+
 
 #### Features:
 
