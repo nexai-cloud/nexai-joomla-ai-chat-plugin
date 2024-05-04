@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.6" type="plugin" group="system" method="upgrade">
+    <name>Nexai - AI Live Chat Support</name>
+    <author>nexai.site</author>
+    <creationDate>May 2023</creationDate>
+    <copyright>Nexai.site. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>team@nexai.site</authorEmail>
+    <authorUrl>nexai.site</authorUrl>
+    <version>0.0.1</version>
+    <description>Free AI Assistant Support Chat!</description>
+    <files>
+        <filename plugin="nexai_chat">nexai_chat.php</filename>
+        <filename>index.html</filename>
+    </files>
+    <updateservers>
+        <server type="extension" priority="1" name="nexai.site">https://nexai.site/joomla/updates/plg_nexai_chat.xml</server>
+    </updateservers>
+    <config>
+        <fields name="params">
+          <fieldset name="Required Settings" label="Required Settings">
+              <field name="nexaiApiKey" type="text" default="" label="Nexai API Key"/>
+          </fieldset>
+          <fieldset name="AI Settings" label="AI Settings">
+              <field name="aiName" type="text" default="AI Assistant" label="AI Name"/>
+              <field name="aiAvatarUrl" type="text" default="" label="AI Avatar URL"/>
+              <field name="chatSuggests" type="text" default="[]" label="Chat Suggests"/>
+              
+          </fieldset>
+          <fieldset name="Display Settings" label="Display Settings">
+              <field name="width" type="text" default="400" label="Width"/>
+              <field name="bottom" type="text" default="" label="Bottom (pixels from bottom of page)"/>
+              <field name="right" type="text" default="" label="Right (pixels from right of page)"/>
+              <field name="projectName" type="text" default="AI Support" label="Project Name"/>
+              <field name="inputPlaceholder" type="text" default="Ask a question..." label="Input Placeholder"/>
+          </fieldset>
+          <fieldset name="Advanced Settings" label="Advanced Settings">
+              <field name="nexaiIoUrl" type="text" default="https://io.nexai.site" label="Nexai IO URL"/>
+              <field name="nexaiAssetsUrl" type="text" default="https://nexai.site/ai/assets" label="Nexai Assets URL"/>
+          </fieldset>
+      </fields>
+    </config>
+</extension>
